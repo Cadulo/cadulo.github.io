@@ -2,6 +2,36 @@ h1 {
   font-style: italic;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Open sans", sans-serif;
+  color: #0bcc7b;
+}
+
+span {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.section {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2%;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
 #secciondatos {
   width: 50%;
   margin: 0 auto;
@@ -13,46 +43,25 @@ h1 {
   color: #373b41;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
-h2 {
-  font-family: "Open sans", sans-serif;
-  color: #0bcc7b;
-}
-
-p {
-  text-align: center;
-}
-
-span {
-  text-align: center;
-}
-
 #seccionredes {
   width: 30%;
   margin: 0 auto;
   text-align: center;
 }
 
-a {
-  font-weight: 600;
-  text-decoration: none;
-}
 
-.section {
-  width: 50%;
-  margin: 0 auto;
-  background-color: white;
-  padding: 2%;
-  /*margin-top: 2% !important;
-  margin-bottom: 2% !important;*/
-  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
-}
 #seccionhabilidades table td {
   text-align: center;
 }
 #seccionhabilidades table {
   margin: 0 auto;
+}
+
+#seccioncontactenos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#seccioncontactenos h2{
+  grid-column: 1/3;
 }
