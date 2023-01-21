@@ -28,7 +28,7 @@ p {
 
 .section {
   width: 50%;
-  margin: 0 auto;
+  margin: 2% auto;
   background-color: white;
   padding: 2%;
   box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
@@ -36,7 +36,7 @@ p {
 
 #secciondatos {
   width: 50%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 #secciondatos p {
@@ -47,7 +47,7 @@ p {
 
 #seccionredes {
   width: 30%;
-  margin: 0 auto;
+  margin: 2% auto;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ p {
 
 #seccioncontactenos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 #seccioncontactenos h2 {
